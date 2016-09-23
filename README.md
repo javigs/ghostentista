@@ -1,4 +1,4 @@
-# Ghostentista [![Project Status](http://stillmaintained.com/viktorbezdek/ghostentista.png)](http://stillmaintained.com/viktorbezdek/ghostentista) [![Build Passing](https://travis-ci.org/viktorbezdek/ghostentista.png)](https://travis-ci.org/viktorbezdek/ghostentista)
+# Ghostentista [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/) [![Build Passing](https://travis-ci.org/viktorbezdek/ghostentista.png)](https://travis-ci.org/viktorbezdek/ghostentista)
 ## Theme for Ghost Blogging Platform
 version 1.0.0-rc1
 

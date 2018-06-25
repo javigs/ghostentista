@@ -24,14 +24,14 @@
     "grunt-cli": "1.0.0",
     "grunt": "1.0.0",
     "grunt-csso": "~0.5.0",
-    "less": "~1.5.1",
+    "less": "~2.1.0",
     "grunt-ez-frontend": "~0.2.2",
     "grunt-autoprefixer": "~0.4.1",
     "grunt-frontend": "~2.0.3",
-    "grunt-contrib-less": "~0.8.2",
+    "grunt-contrib-less": "~1.0.0",
     "grunt-contrib-copy": "~0.4.1",
     "grunt-contrib-imagemin": "0.7.0",
-    "snyk": "^1.19.1"
+    "snyk": "^1.85.0"
   },
   "engine": "node >= 0.10.1",
   "devDependencies": {
@@ -42,7 +42,8 @@
   },
   "scripts": {
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "snyk": true
 }

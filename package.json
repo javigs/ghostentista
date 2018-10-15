@@ -22,7 +22,7 @@
   "version": "0.5.1",
   "dependencies": {
     "grunt-cli": "1.0.0",
-    "grunt": "1.0.0",
+    "grunt": "1.0.3",
     "grunt-csso": "~0.5.0",
     "less": "~1.5.1",
     "grunt-ez-frontend": "~0.2.2",
@@ -30,7 +30,7 @@
     "grunt-frontend": "~2.0.3",
     "grunt-contrib-less": "~0.8.2",
     "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-imagemin": "0.7.0",
+    "grunt-contrib-imagemin": "0.9.2",
     "snyk": "^1.19.1"
   },
   "engine": "node >= 0.10.1",

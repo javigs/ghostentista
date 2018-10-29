@@ -31,7 +31,7 @@
     "grunt-contrib-less": "~0.8.2",
     "grunt-contrib-copy": "~0.4.1",
     "grunt-contrib-imagemin": "0.7.0",
-    "snyk": "^1.19.1"
+    "snyk": "^1.105.0"
   },
   "engine": "node >= 0.10.1",
   "devDependencies": {
@@ -42,7 +42,8 @@
   },
   "scripts": {
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "snyk": true
 }

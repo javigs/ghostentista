@@ -22,7 +22,7 @@
   "version": "0.5.1",
   "dependencies": {
     "grunt-cli": "1.0.0",
-    "grunt": "1.0.0",
+    "grunt": "1.0.3",
     "grunt-csso": "~0.5.0",
     "less": "~1.5.1",
     "grunt-ez-frontend": "~0.2.2",

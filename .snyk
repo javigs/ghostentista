@@ -1,5 +1,7 @@
-version: v1.5.0
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
 ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:hawk:20160119':
     - grunt-ez-frontend > request > hawk:
@@ -21,6 +23,33 @@ patch:
         patched: '2016-09-12T22:05:21.381Z'
     - grunt-contrib-imagemin > image-min > optipng-bin > bin-build > download > decompress > tar:
         patched: '2016-09-12T22:05:21.381Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-gifsicle > gifsicle > bin-build > download > decompress > tar:
+        patched: '2019-04-08T22:36:37.421Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-jpegtran > jpegtran-bin > bin-build > download > decompress > tar:
+        patched: '2019-04-08T22:36:37.421Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-optipng > optipng-bin > bin-build > download > decompress > tar:
+        patched: '2019-04-08T22:36:37.421Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-pngquant > pngquant-bin > bin-build > download > decompress > tar:
+        patched: '2019-04-08T22:36:37.421Z'
+    - grunt-contrib-imagemin > imagemin > imagemin-pngquant > pngquant-bin > bin-wrapper > download > decompress > tar:
+        patched: '2019-04-08T22:36:37.421Z'
   'npm:uglify-js:20151024':
     - grunt-frontend > uglify-js:
         patched: '2016-09-12T22:05:21.381Z'
+  'npm:http-signature:20150122':
+    - grunt-ez-frontend > less > request > http-signature:
+        patched: '2019-04-08T22:36:37.421Z'
+    - grunt-ez-frontend > request > http-signature:
+        patched: '2019-04-08T22:36:37.421Z'
+  'npm:mime:20170907':
+    - grunt-ez-frontend > less > request > form-data > mime:
+        patched: '2019-04-08T22:36:37.421Z'
+    - grunt-ez-frontend > less > mime:
+        patched: '2019-04-08T22:36:37.421Z'
+    - grunt-ez-frontend > request > form-data > mime:
+        patched: '2019-04-08T22:36:37.421Z'
+    - grunt-ez-frontend > request > mime:
+        patched: '2019-04-08T22:36:37.421Z'
+  'npm:tunnel-agent:20170305':
+    - grunt-ez-frontend > less > request > tunnel-agent:
+        patched: '2019-04-08T22:36:37.421Z'

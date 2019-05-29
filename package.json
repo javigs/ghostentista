@@ -30,7 +30,7 @@
     "grunt-frontend": "~2.0.3",
     "grunt-contrib-less": "~0.8.2",
     "grunt-contrib-copy": "~0.4.1",
-    "grunt-contrib-imagemin": "0.7.0",
+    "grunt-contrib-imagemin": "0.8.1",
     "snyk": "^1.19.1"
   },
   "engine": "node >= 0.10.1",

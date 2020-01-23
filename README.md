@@ -41,7 +41,7 @@ ____
 ____
 ## Like the theme? Want to show your appreciation?
 Buy me a beer via [gittip](https://www.gittip.com/viktorbezdek/).
-[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.1.0/dist/gittip.png)](https://www.gittip.com/viktorbezdek/)
+[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.1.0/dist/gittip.png)](https://www.gittip.com/viktorbezdek/) [![Greenkeeper badge](https://badges.greenkeeper.io/viktorbezdek/ghostentista.svg)](https://greenkeeper.io/)
 
 ____
 
